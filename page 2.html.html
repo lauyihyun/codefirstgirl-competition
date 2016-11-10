@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<link href="/normalize.css" rel="stylesheet">
+<style>
+
+
+h1 {
+	font-family:sans-serif;
+	size: 40px
+  position: relative;
+	text-align: left;
+	color: #f9543e;
+
+}
+
+body {
+font-size: 20px;
+text-align: center;
+background-image: url(http://1.bp.blogspot.com/-2362D3NLdDY/TiOfE2-ywxI/AAAAAAAAAYU/Jswf4h2Ks38/s1600/Volunteer+pic+from+internet.jpg);
+background-size: cover;
+margin-top:50px
+
+}
+
+div {
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:20px;
+}
+
+form {
+	padding:5px;
+color:rgb(157,162,163);
+ background-color: rgba(0,0,0,0.7);
+ height:300px
+}
+
+p {
+	background-color:grey
+}
+
+input {
+	background-color:rgba(0, 0, 0, 0.2);
+	color:rgb(157,162,163);
+}
+textarea {
+	background-color:rgba(0, 0, 0, 0.2);
+}
+
+</style>
+
+
+<title> Get in touch with us
+</title>
+
+
+<h1> Get in touch with us
+</h1>
+
+<body>
+
+
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
