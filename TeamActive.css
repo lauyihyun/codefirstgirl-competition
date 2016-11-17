@@ -114,3 +114,26 @@ div.desc {
 .img {
 
 }
+.socialbuttons {
+  width: 40px;
+  height: 40px;
+}
+.main {
+  width: 80%;
+  margin:auto;
+
+}
+.footer {
+  margin: auto;
+  width: 70%;
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+}
+
+.footer a{
+opacity: 0.5;
+}
+.footer a:hover{
+opacity: 1;
+}
